@@ -14,6 +14,6 @@ class TuchiuraWeather(object):
             json()
 
 if __name__ == '__main__':
-    print("那覇の今日の天気予報は：")
+    print("那覇の今日の天気は：")
     #TuchiuraWeatherのインスタンスを作成し、get_todays_forecast()メソッドを呼び出して、土浦市の今日の天気予報を取得し、出力します。
     print(TuchiuraWeather().get_todays_forecast())
