@@ -10,8 +10,7 @@ class TuchiuraWeather(object):
     
     def _fetch(self):#天気予報APIに対してHTTP GETリクエストを送信し、JSON形式で受け取った結果を返します。
         return requests.\
-            get('https://weather.tsukumijima.net/api/forecast/city/471010').\
-            json()
+            get('https://weather.tsukumijima.net/api/forecast/city/471010').json()
 
 if __name__ == '__main__':
     print("那覇の今日の天気は：")
